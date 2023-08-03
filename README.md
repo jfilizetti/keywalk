@@ -1,15 +1,18 @@
 # Overview
 
-Various files/directories purpose:
 
-html/                 - Exported HTML copy of the Jupyter Notebook in case you don't want to use Jupyter
-notebooks/            - Jupyter notebooks for the bulk of data/analysis and for creating the keyboard GIFs
-notebooks/images/     - Animated GIFs used in the Jupyter Notebook
-notebooks/wordlists/  - The wordlists used by the Jupyter Notebooks
-keywalk.c             - The C version to evaluate wordlists and output the CSVs used by the Jupyter Notebooks
-keywalk.py            - Original version I started with to evaluate things, but let's face it: python is slow
+Various files/directories purpose:
+    
+    html/                 - Exported HTML copy of the Jupyter Notebook in case you don't want to use Jupyter
+    notebooks/            - Jupyter notebooks for the bulk of data/analysis and for creating the keyboard GIFs
+    notebooks/images/     - Animated GIFs used in the Jupyter Notebook
+    notebooks/wordlists/  - The wordlists used by the Jupyter Notebooks
+    keywalk.c             - The C version to evaluate wordlists and output the CSVs used by the Jupyter Notebooks
+    keywalk.py            - Original version I started with to evaluate things, but let's face it: python is slow
 
 ## Setting up the python environment
+
+Unfortunately the rockyou.txt and rockyou.txt_results file are above the warning and error thresholds for github so right now they are missing from this archive.  It should be easy enough to recreate them using the steps below.
 
 bunzip2 the wordlists and result wordlists:
 
